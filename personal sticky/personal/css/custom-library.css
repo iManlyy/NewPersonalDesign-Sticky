@@ -1,0 +1,187 @@
+/* Here I created a mini library like bootstrap
+by assigning the main color of my page to classes */
+.w-fit-content {
+	width: fit-content !important;
+}
+.link-main {
+	color: #04AF71 !important;
+	text-decoration: none !important;
+}
+.link-main:hover {
+	color: #22CF71 !important;
+}
+.bg-main {
+	background-color: #4517FC !important;
+}
+
+.text-main {
+	color: #4517FC !important;
+}
+.text-hover:hover {
+	color: #4517FC !important;
+	transition: 0.3s;
+}
+
+.text-black {
+	color: #000 !important;
+}
+.text-black-hover:hover {
+	color: #000 !important;
+	transition: 0.3s;
+}
+.text-white-hover:hover {
+	color: #fff !important;
+	transition: 0.3s;
+}
+.bg-hover:hover {
+	background-color: #4517FC !important;
+	transition: 0.3s;
+}
+
+.border-hover:hover {
+	border: 1px solid #4517FC !important;
+	transition: 0.3s;
+}
+
+.shadow-hover:hover {
+	box-shadow: 0 0 5px #4517FC !important;
+}
+
+.shadow-hover-high:hover {
+	box-shadow: 0 0 10px #4517FC !important;
+}
+
+.shadow-hover-very-high:hover {
+	box-shadow: 0 0 15px #4517FC !important;
+}
+
+.border-main {
+	border: 1px solid #4517FC !important;
+}
+
+.border-top-main-0 {
+	border-top: 0 !important;
+}
+.border-top-main {
+	border-top: 1px solid #4517FC !important;
+}
+.border-top-main-high {
+	border-top: 2px solid #4517FC !important;
+}
+
+.border-bottom-main-0 {
+	border-bottom: 0 !important;
+}
+.border-bottom-main {
+	border-bottom: 1px solid #4517FC !important;
+}
+.border-bottom-main-high {
+	border-bottom: 2px solid #4517FC !important;
+}
+
+.border-right-main-0 {
+	border-right: 0 !important;
+}
+.border-right-main {
+	border-right: 1px solid #4517FC !important;
+}
+.border-right-main-high {
+	border-right: 2px solid #4517FC !important;
+}
+
+.border-left-main-0 {
+	border-left: 0 !important;
+}
+.border-left-main {
+	border-left: 1px solid #4517FC !important;
+}
+.border-left-main-high {
+	border-left: 2px solid #4517FC !important;
+}
+
+.btn-main {
+	color: #fff !important;
+	background-color: #4517FC !important;
+	border-color: #4517FC !important;
+}
+.btn-main:hover {
+	color: #fff !important;
+	background-color: #5527FF !important;
+	border-color: #5527FF !important;
+}
+
+.btn-outline-main {
+	color: #fff !important;
+	border-color: #4517FC !important;
+}
+.btn-outline-main:hover {
+	color: #fff !important;
+	border-color: #4517FC !important;
+	background-color: #4517FC !important;
+}
+.outline-hover:hover {
+	border-color: #4517FC !important;
+}
+.pt-25 {
+	padding-top: 25%;
+}
+.pt-30 {
+	padding-top: 30%;
+}
+.pt-32 {
+	padding-top: 32%;
+}
+.pt-35 {
+	padding-top: 35%;
+}
+.pt-40 {
+	padding-top: 40% !important;
+}
+.pt-45 {
+	padding-top: 45% !important;
+}
+.pt-50 {
+	padding-top: 50% !important;
+}
+.pt-55 {
+	padding-top: 55% !important;
+}
+.pt-60 {
+	padding-top: 60% !important;
+}
+.pt-65 {
+	padding-top: 65% !important;
+}
+.mt-25 {
+	margin-top: 25% !important;
+}
+.mt-40 {
+	margin-top: 40% !important;
+}
+.mt-45 {
+	margin-top: 45% !important;
+}
+.mt-50 {
+	margin-top: 50% !important;
+}
+.mt-55 {
+	margin-top: 55% !important;
+}
+.mt-60 {
+	margin-top: 60% !important;
+}
+.mt-65 {
+	margin-top: 65% !important;
+}
+.h-60 {
+	height: 60% !important;
+}
+.h-70 {
+	height: 70% !important;
+}
+.h-80 {
+	height: 80% !important;
+}
+.h-90 {
+	height: 90% !important;
+}

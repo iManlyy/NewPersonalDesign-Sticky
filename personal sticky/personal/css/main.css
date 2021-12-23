@@ -1,0 +1,218 @@
+* {
+	box-sizing: border-box;
+	scroll-behavior: smooth;
+}
+/* For Remove Underline */
+a:link,a:visited,a:hover,a:active {
+	text-decoration: none;
+}
+/* For Remove Bootstrap Glow */
+.form-control:focus {
+	box-shadow: 0 0 !important;
+}
+.btn:focus {
+	box-shadow: 0 0 !important;
+}
+.navbar-toggler:focus {
+	box-shadow: 0 0 0 0.25rem #4517FC !important;
+}
+.accordion-button:focus {
+	box-shadow: 0 0 !important;
+}
+/* Navbar's Z-Index and Settings */
+.nav-z-position {
+	position: sticky !important;
+	z-index: 2;
+}
+.navSettings {
+	margin-top: -313px;
+	border-radius: 0 0 10% 10%;
+}
+/* Back To Top Button */
+#btn-back-to-top {
+	background-color: #4517fc;
+	color: #fff;
+	z-index: 99;
+	position: fixed;
+	top: 28px;
+	left: 50%;
+	transform: translateX(-50%);
+	display: none;
+	border: 0;
+	border-radius: 20px 20px 0 0;
+}
+#btn-back-to-top:hover {
+	background-color: #fff !important;
+	color: #000;
+}
+/* Photo and Text In Home */
+.headerPhoto {
+	background-image: linear-gradient(rgba(0, 0, 0, .6),rgba(0, 0, 0, .3),rgba(0, 0, 0, .6)),url('../img/software.jpg');
+	background-attachment: fixed;
+	background-position: center 100%;
+	transition: 0.3s;
+	height: 1000px;
+}
+.headerPhoto:hover {
+	filter: hue-rotate(35deg);
+}
+/* Mouse Effect */
+.mouse{
+  display: flex;
+  justify-content: center !important;
+  box-shadow: 1px 1px 20px #000;
+  width: 30px;
+  height: 50px;
+  border: 3px solid #fff;
+  border-radius: 60px;
+}
+.mouse-circle{
+  position: relative;
+  margin-top: 5px;
+  width: 11px;
+  height: 11px;
+  background: #fff;
+  border-radius: 50%;
+  opacity: 1;
+  animation: mouse 2s infinite;
+}
+@keyframes mouse {
+  from{
+    opacity: 1;
+    top: 0;
+  }
+  to{
+    opacity: 0;
+    top: 49%;
+  }
+}
+/* My Projects Section's Shadow */
+.forshadow {
+	z-index: -1;
+	padding: 0;
+	left: 0;
+	width: 100%;
+	height: 100px;
+	background: linear-gradient(rgba(0, 0, 0, .1),rgba(0, 0, 0, .0));
+}
+/* Gradient Bottom Border Class */
+.gradient-alt-border {
+	animation: rainbow-border 3s ease-in-out infinite;
+}
+@keyframes rainbow-border {
+	0% { border-bottom: 2px solid #76cc86; }
+	25% { border-bottom: 2px solid #fffeb7; }
+	50% { border-bottom: 2px solid #c74e8a; }
+	75% { border-bottom: 2px solid #fffeb7 }
+	100% { border-bottom: 2px solid #76cc86 }
+}
+/* Gradient Text In Bridge and Text's Shadow*/
+.gradient-text {
+	animation: rainbow2 6s ease-in-out infinite, rainbow22 3s ease-in-out infinite;
+	font-weight: 500 !important;
+	background: linear-gradient(to right, #76cc86, #fffeb7, #c74e8a);
+	background-size: 400% 100%;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+@keyframes rainbow22 {
+	25% { text-shadow: 0 0 40px #fffeb7 }
+	50% { text-shadow: 0 0 80px #fff }
+	75% { text-shadow: 0 0 40px  #fffeb7 }
+}
+@keyframes rainbow2 {
+	0%,100% {
+        background-position: 0 0;
+    }
+
+    50% {
+        background-position: 100% 0;
+    }
+}
+/* Shadow For My Bitmoji */
+@keyframes rainbowpp {
+	0%,100%{ filter: drop-shadow(0 0 40px #fff965) }
+	50% { filter: drop-shadow(0 0 65px  #ddd743) }
+}
+.pp-shadow {
+	animation: rainbowpp 3s infinite;
+}
+/* Footer Background */
+.footerPhoto {
+	padding-bottom: 20px;
+	background-image: linear-gradient(rgba(0, 0, 0, .8),rgba(0, 0, 0, .8)),url('../img/footer.jpg');
+	background-attachment: fixed;
+	background-position: center center;
+}
+/* For Options In Contact Form */
+.selectContact option {
+	color: #e5e5e5;
+	background-color: #333;
+}
+/* Social Media Icons */
+.footerLinks a i {
+	font-size: 1.9rem;
+	transition: 0.3s;
+}
+.footerLinks a i:hover {
+	color: #4517FC !important;
+}
+.footerLinks a {
+	margin-bottom: 20%;
+}
+#successForm {
+	position: fixed;
+	right: 20px;
+	bottom: 20px;
+	display: none;
+}
+/* ---------------- MEDİA TAGS ---------------- */
+/* For Xs */
+@media screen and (max-width: 360px) {
+	#roadSection {
+		display: none;
+	}
+}
+/* For Sm */
+@media screen and (max-width: 576px) {
+	#RoadText2 {
+		margin-top: 65% !important;
+	}
+	.footerLinks {
+		justify-content: space-between;
+	}
+	.footerLinks a {
+		margin-bottom: 0;
+	}
+}
+/* Bridge */
+@media screen and (max-width: 620px) {
+}
+/* For Md */
+@media screen and (max-width: 767px) {
+	#roadImg-md {
+		height: 700px;
+	}
+}
+/* For Lg */
+@media screen and (max-width: 991px) {
+	#btn-back-to-top {
+		left: unset;
+		top: unset;
+		right: 0%;
+		bottom: 4%;
+		border-radius: 28%;
+	}
+	.navSettings {
+		border-radius: 0;
+	}
+	.navbarOfHead {
+		background-color: #212529 !important;
+	}
+	.headerPhoto {
+		height: 850px;
+	}
+	.nav-item {
+		margin-top: 10px !important;
+	}
+}
